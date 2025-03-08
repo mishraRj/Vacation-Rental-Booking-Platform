@@ -54,8 +54,9 @@ app.use(express.static(path.join(__dirname, "/public")));  // Serve static files
 
 const store = MongoStore.create({
     mongoUrl: dbUrl,
+    collectionName: "sessions",
     crypto: {
-        secret: process.env.SECRET
+        secret: process.env.SESSION_SECRET || "defaultCryptoSecret", // Use an env variable
     },
     touchAfter: 24 * 3600,  // keeps the user login after refresh for 24 hr 
 });
