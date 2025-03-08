@@ -60,7 +60,7 @@ const store = MongoStore.create({
     touchAfter: 24 * 3600,  // keeps the user login after refresh for 24 hr 
 });
 
-store.on("error", () => {
+store.on("error", (err) => {
     console.log('error on mongo session store', err);
 });
 
@@ -73,7 +73,7 @@ const sessionOptions = {
         expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
         maxAge: 7 * 24 * 60 * 60 * 1000,
         httpOnly: true,
-        secure: process.env.NODE_ENV === "production" // ✅ Ensures secure cookies in production
+        secure: false // ✅ Ensures secure cookies in production
     }
 };
 
