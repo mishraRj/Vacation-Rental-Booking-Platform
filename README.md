@@ -37,9 +37,9 @@ This project demonstrates **end-to-end MERN stack development** with authenticat
 ---
 
 ## 📸 Screenshots
-| Homepage | Property Listing | Login Page |
-|----------|------------------|--------------|
-| ![Homepage](screenshots/home.png) | ![Listing](docs/screenshots/listing.png) | ![Booking](docs/screenshots/booking.png) |
+| Homepage | Property Listing | Create Listing | Login Page |
+|----------|------------------|------------------|--------------|
+| ![Homepage](screenshots/home.png) | ![Listing](screenshots/listing.png) | ![CreateListing](screenshots/createListing.png) | ![Login](screenshots/login.png) |
 
 *(Add actual screenshots from your project under `docs/screenshots/` and link them here)*  
 
