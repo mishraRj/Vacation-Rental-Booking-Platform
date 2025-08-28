@@ -13,7 +13,6 @@ module.exports.isLoggedIn = (req, res, next) => {
     next();
 };
 
-
 module.exports.saveRedirectUrl = (req, res, next) => {
     // Ensure session variable is stored correctly
     if (!req.session.redirectUrl) {
