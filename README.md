@@ -39,7 +39,7 @@ This project demonstrates **end-to-end MERN stack development** with authenticat
 ## 📸 Screenshots
 | Homepage | Property Listing | Login Page |
 |----------|------------------|--------------|
-| ![Homepage]([docs/screenshots/home.png](https://github.com/mishraRj/Vacation-Rental-Booking-Platform/blob/main/screenshots/home.png)) | ![Listing](docs/screenshots/listing.png) | ![Booking](docs/screenshots/booking.png) |
+| ![Homepage](screenshots/home.png) | ![Listing](docs/screenshots/listing.png) | ![Booking](docs/screenshots/booking.png) |
 
 *(Add actual screenshots from your project under `docs/screenshots/` and link them here)*  
 
